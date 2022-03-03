@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         button.setOnClickListener {
             Toast.makeText(applicationContext,"xin chào",Toast.LENGTH_LONG).show()
+
+
         }
     }
 }
